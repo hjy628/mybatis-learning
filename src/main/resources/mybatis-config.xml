@@ -10,6 +10,7 @@
 
     <typeHandlers>
         <typeHandler handler="com.hjy.chapter3.typeHandler.MyStringTypeHandler" javaType="string" jdbcType="VARCHAR"/>
+        <typeHandler handler="com.hjy.chapter3.typeHandler.SexEnumTypeHandler" javaType="com.hjy.chapter3.enums.Sex" jdbcType="VARCHAR"/>
       <!--  <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" javaType="com.hjy.chapter3.enums.Sex"/>-->
     </typeHandlers>
 
